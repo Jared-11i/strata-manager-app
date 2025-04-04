@@ -101,3 +101,13 @@ export default function Home() {
     </div>
   );
 }
+export default function Home() {
+  return (
+    <main>
+      <h1>{process.env.NEXT_PUBLIC_SITE_TITLE}</h1>
+      <img src="/Strata-Schemes-Management-Act-image.jpg" alt="Strata Logo" width={200} />
+      <p>Welcome to your Strata Management website!</p>
+    </main>
+  );
+}
+
